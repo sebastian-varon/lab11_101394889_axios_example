@@ -1,10 +1,13 @@
 import React from 'react';
 import PersonList from './components/PersonList';
+import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <h1>Person List</h1>
+            <header className="header">
+                <h1>Our Team</h1>
+            </header>
             <PersonList />
         </div>
     );
